@@ -34,6 +34,7 @@ func splitScannerRows(inScanner *bufio.Scanner) [][]int {
 	return slices
 }
 
+// need logic
 func safeOrUnsafe(levels [][]int) (int, int) {
 	for _, level := range levels {
 
